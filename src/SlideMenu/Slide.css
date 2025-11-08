@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+}
+.slide{
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+/* h1{
+    color: #8000ff;
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+}  */
+/* ul li{
+    list-style: none;
+
+} */
+/* ul li a{
+    color: #011a41;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none; 
+    transition: 0.2s ease-out;
+    
+} */
+/* ul li a i{
+    width: 40px;
+    text-align: center;
+} */

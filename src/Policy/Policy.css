@@ -1,0 +1,12 @@
+.policyImg{
+    background-image: url('C:\Users\LENOVO T450s\ReactjsProject\NewReactProject\NewReactProject\src\assets\juliane-liebermann-O-RKu3Aqnsw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.green{
+    /* background-color: rgb(151, 199, 151); */
+    background-color: #84a98c;
+    /* background-color: #cad2c5; */
+  
+}
