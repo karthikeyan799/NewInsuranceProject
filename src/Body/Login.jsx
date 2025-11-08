@@ -4,7 +4,7 @@ import '../Body/Login.css'
 import { AuthContext } from './AuthProvider';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-import cartoon from "src/assets/3d-cartoon-baby-genius-photo.jpg"
+import cartoon from "../assets/3d-cartoon-baby-genius-photo.jpg"
 export default function Login() {
     // const [username, setUsername] = useState("");
     // const [password, setPassword] = useState("");
