@@ -7,7 +7,7 @@ import { AuthContext } from './AuthProvider'
 export default function Home() {
   const {user,isLoggedIn} = useContext(AuthContext);
   return (
-    <div className='policyImg'>
+    <div className='container-fluid policyImg'>
       <div className='container mt-3 d-flex'>
         <div className='col-6'>
           {/* {!isLoggedIn ?( */}
