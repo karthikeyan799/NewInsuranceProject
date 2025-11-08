@@ -4,7 +4,7 @@ import '../Body/Login.css'
 import { AuthContext } from './AuthProvider';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
+import cartoon from "src/assets/3d-cartoon-baby-genius-photo.jpg"
 export default function Login() {
     // const [username, setUsername] = useState("");
     // const [password, setPassword] = useState("");
@@ -56,7 +56,7 @@ export default function Login() {
             {/* <form className='form row' onSubmit={userLogin}> */}
             <div className='form row' >
                 <div className='col-6 dimg'>
-                    <img className="img" src="src/assets/3d-cartoon-baby-genius-photo.jpg" alt="bad" /> </div>
+                    <img className="img" src={cartoon} alt="bad" /> </div>
                 <div className='col-6 dform'>
                     <h2 className='login'>Login</h2><hr />
                     <div className='row'>
