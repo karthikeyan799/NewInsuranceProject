@@ -2,7 +2,7 @@ import React, { useContext, useState } from 'react'
 // import './Body/Login.css'
 import '../Body/Login.css'
 import { AuthContext } from './AuthProvider';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 
 export default function Login() {
@@ -91,7 +91,8 @@ export default function Login() {
 
                     </div>
                     <p className='p'>
-                        Don't have an Account? <a href="#">Register</a>
+                        Don't have an Account? <Link to={"/registration"}>Register</Link>
+                     
                     </p>
                     <div>
                         <button className='btn btn-success' onClick={handleSubmit} type='submit'>LogIn</button>

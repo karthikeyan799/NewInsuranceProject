@@ -21,6 +21,7 @@ import FetchAll from './Customer/FetchAll'
 import PageNotFound from './Body/PageNotFound'
 import AuthProvider, { AuthContext } from './Body/AuthProvider'
 import RightJoin from './Customer/RightJoin'
+import Register from './Body/Register'
 
 
 
@@ -51,8 +52,8 @@ function App() {
             <Route path="/dashboard" element={
               <RequireAuth>
                 <Dashboard />
-               </RequireAuth>
-              }/>
+              </RequireAuth>
+            } />
             <Route path='/rightJoin' element={
               <RequireAuth>
                 <RightJoin />
@@ -62,6 +63,7 @@ function App() {
               <Login />
               // </RequireAuth>
             } />
+            <Route path='/registration' element={<Register />}></Route>
 
             <Route path='/search' element={
               // <RequireAuth> no
