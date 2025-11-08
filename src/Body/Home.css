@@ -53,8 +53,9 @@
     
 } */
 .policyImg{
-    background-color: red;
+    /* background-color: red; */
     background-image: url("../assets/juliane-liebermann-O-RKu3Aqnsw-unsplash.jpg");
+    height: 100%;
     /* background-repeat: no-repeat; */
     /* background-size: cover; */
     /* overflow: auto; */
