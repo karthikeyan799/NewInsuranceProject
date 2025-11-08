@@ -127,7 +127,7 @@ export default function Register() {
                                 )}
                             </div>
                         </div>
-                        <div className="mb-3 ">
+                        {/* <div className="mb-3 ">
                             <div className="inputGroupContainer mb-3">
                                 <label className="form-label" htmlFor="form2Example1">
                                     Confirm Password :
@@ -151,7 +151,7 @@ export default function Register() {
                                     <span className="text-danger">{error.confirmPassword}</span>
                                 )}
                             </div>
-                        </div>
+                        </div> */}
                         <p className='text-center'>Already Have an account ? <Link to={'/login'}>Login</Link></p>
                         <button type='submit' className='btn btn-success'>Register</button>
 
